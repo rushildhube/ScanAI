@@ -1,0 +1,10 @@
+{
+  "class_names": [
+    "Calculus",
+    "Caries",
+    "Gingivitis",
+    "Healthy Teeth",
+    "Mouth_Ulcer",
+    "Tooth_Discoloration"
+  ]
+}

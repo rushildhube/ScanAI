@@ -1,0 +1,101 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+venv/
+env/
+ENV/
+venv.bak/
+.env.*
+
+# Packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-wheel-metadata/
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+.coverage.*
+.tox/
+nosetests.xml
+coverage.xml
+.hypothesis/
+pytestdebug.log
+
+# Type checking & tooling
+.mypy_cache/
+.pyre/
+.pytype/
+.dmypy.json
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~
+
+# Logs & temp
+*.log
+logs/
+/tmp/
+*.tmp
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node (if used by frontend tooling)
+node_modules/
+
+# Data & artifacts
+uploads/
+backend/uploads/
+training_pipeline/metrics/
+training_pipeline/misclassified_samples/
+
+# Data management (entire directory with raw/split datasets)
+data_management/
+
+# Personal folders
+Kavita_Peswani/
+
+# Models & large assets
+backend/model/*.pth
+backend/model/*.onnx
+
+# Local secrets
+backend/.env
+
+# Archives & compressed files
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.gz
+*.bz2
+*.xz
